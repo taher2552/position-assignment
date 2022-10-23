@@ -228,6 +228,60 @@ body{
 
 } 
 
+/* many items section css */
+
+.many{
+    display: flex;
+    height: 18rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiles{
+
+    width:8rem;
+    height: 8rem;
+    border: 5px solid #20B2A8;
+    background-color:#9AD8C9;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+
+
+.justify{
+    display: flex;
+     justify-content:space-around;
+     margin:0 4%;
+     margin-top: 0.2rem;
+     margin-bottom: 80px;
+    
+}
+
+.border0:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 90%; 
+    padding-top: 20px; 
+    border-bottom: 2px solid red; 
+}
+
+.border0{
+    margin-top: 80px;
+}
+
+
+
+
 /* stretch section css */
 
 .stretch{
