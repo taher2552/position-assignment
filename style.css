@@ -100,6 +100,7 @@ body{
     border: 2px solid #CA1858;
     float: left;
     padding-top: 2rem;
+    margin-bottom: 60px;
 
 }
 .centerFloat{
@@ -223,6 +224,34 @@ body{
  .downUnique{
     overflow: hidden;
     overflow-y: scroll;
+    margin-bottom: 60px;
 
 } 
+
+
+/* flex section css */
+
+.flexible h2{
+    text-align: center;
+    font-variant: small-caps;
+    margin:40px 0;
+}
+
+.container4{
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.item1, .item2, .item3, .item4{
+    margin-bottom: 30px;
+    width:8rem;
+    height: 8rem;
+    border: 5px solid #20B2A8;
+    background-color:#9AD8C9;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
