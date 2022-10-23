@@ -34,10 +34,12 @@ body{
 .center ul li{
     list-style: none;
     font-size: 2rem;
-    color:#D21454;
 }
-
-.center ul li:hover{
+.center ul li a{
+    color:#D21454;
+    text-decoration: none;
+}
+.center ul li a:hover{
     color:white;
     cursor:pointer;
     border-bottom: 2px solid #D21454;
