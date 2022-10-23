@@ -228,6 +228,58 @@ body{
 
 } 
 
+/* stretch section css */
+
+.stretch{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 5%;
+
+}
+
+.border:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 90%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid red; /* This creates the border. Replace black with whatever color you want. */
+}
+
+/* 
+.stretch{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 20px;
+
+} */
+
+.square{
+
+    margin-bottom: 80px;
+    width:8rem;
+    height: 8rem;
+    border: 5px solid #20B2A8;
+    background-color:#9AD8C9;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 80px;
+
+}
+
+.square3{
+    flex-grow: 1;
+}
+
 
 /* flex section css */
 
@@ -242,7 +294,7 @@ body{
     margin-bottom: 30px;
 }
 
-.item1, .item2, .item3, .item4{
+.item{
     margin-bottom: 30px;
     width:8rem;
     height: 8rem;
@@ -259,12 +311,12 @@ body{
 
 
 .flexible:after {
-    content: ""; /* This is necessary for the pseudo element to work. */ 
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 80%; /* Change this to whatever width you want. */
-    padding-top: 20px; /* This creates some space between the element and the border. */
-    border-bottom: 2px solid red; /* This creates the border. Replace black with whatever color you want. */
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 90%; 
+    padding-top: 20px; 
+    border-bottom: 2px solid red;
 }
 
 /* new box section css */
@@ -278,7 +330,7 @@ body{
 
 .new{
 
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     width:8rem;
     height: 8rem;
     border: 5px solid #20B2A8;
@@ -290,7 +342,7 @@ body{
     align-items: center;
     border-radius: 5px;
     /* margin-left: 30px; */
-    margin-top: 50px;
+    margin-top: 80px;
 
 }
 
