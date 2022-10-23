@@ -418,7 +418,13 @@ body{
     font-size: 2rem;
 }
 
+
 .twitter{
     
     margin:0 50px;
+}
+
+.fa:hover{
+    color:#04302d;
+    cursor: pointer;
 }
